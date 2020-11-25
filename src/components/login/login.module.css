@@ -1,0 +1,20 @@
+.container {
+  padding: 10px
+}
+
+.text {
+  margin: 0;
+  font-weight: bold;
+}
+
+.colorblue {
+  color: blue;
+}
+
+.colororange {
+  color: orange;
+}
+
+.underline {
+  text-decoration: underline
+}

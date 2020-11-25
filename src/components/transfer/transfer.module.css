@@ -1,0 +1,11 @@
+.row {
+  display: flex
+}
+
+.f50p {
+  flex: 50%
+}
+
+.f100p {
+  flex: 100%
+}
