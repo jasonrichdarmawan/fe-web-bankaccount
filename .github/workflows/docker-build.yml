@@ -32,5 +32,5 @@ jobs:
             git clone https://github.com/kidfrom/fe-web-bankaccount; cd fe-web-bankaccount; \
             yes | cp ${{ secrets.KEYSTOREPATH }}/{cert.pem,privkey.pem} ./; \
             docker build -t fe-web-bankaccount .; \
-            docker rmi $(docker images -f "dangling=true" -q) \
+            docker rmi $(docker images -f "dangling=true" -q); \
             docker-compose up -d;"
